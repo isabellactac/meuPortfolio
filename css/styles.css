@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header nav{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav > /* aplica apenas no span filho direto do nav */span{
+    font-size: 1.5 rem;
+    font-weight: 700;
+    color: rgb(194, 73, 160);
+    margin: 0px 10px;
+}
+
+.navigation-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.navigation-items li{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.navigation-items li a{
+    color: #371168;
+}
+
+.navigation-items li a:hover/* muda de cor quando o mouse passa */{
+    color: #7510f7;
+    text-decoration: underline;
+}
